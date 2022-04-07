@@ -13,9 +13,9 @@ atividade e o escreva em seguida. Encontre após a maior pontuação e a apresen
 		leia(val)
 		vet[l]=val
 
-		se (vet[l]>valmaior)
-		{
-		valmaior=vet[l]
+		se (vet[l]>valmaior) //se o numero que o usuario digitar for maior que zero coloque esse valor na variave
+          {
+		   valmaior=vet[l]
 		}
 	}
 		 para(l=0; l<5; l++) 
@@ -32,9 +32,9 @@ atividade e o escreva em seguida. Encontre após a maior pontuação e a apresen
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 16; 
+ * @POSICAO-CURSOR = 464; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {vet, 8, 10, 3}-{valmaior, 8, 26, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
